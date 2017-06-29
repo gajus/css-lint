@@ -41,7 +41,7 @@ When enabled, the following are disallowed:
 When `additional-identifiers` contains a custom prefix value of `test` as show below
 
 ```yaml
-no-vendor-prefix:
+no-vendor-prefixes:
   - 1
   -
     'additional-identifiers':
@@ -59,7 +59,7 @@ The following would now also be disallowed
 When `excluded-identifiers` contains currently disallowed prefix values such as `webkit` and `moz` as show below
 
 ```yaml
-no-vendor-prefix:
+no-vendor-prefixes:
   - 1
   -
     'excluded-identifiers':
